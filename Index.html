@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="Style.css">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet"/>
+
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+    <div class="nav-logo">King</div>
+    <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-accent-circle"></div>
+    <div class="hero-tag">Available for work &nbsp;·&nbsp; 2026</div>
+    <h1 class="hero-title">Carlos<br/><br/><span>Reyes</span></h1>
+    <p class="hero-subtitle">Computer Science student building web apps, APIs, and software solutions</p>
+
+    <div class="hero-photo">
+
+        <img src="Imgs/Portfolio.png" alt="Carlos Reyes"/>
+        <div class="hero-photo-label">Photo</div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <div class="about-left">
+        <div class="section-header">
+            <span class="section-num">01 /</span>
+            <h2 class="section-title">About</h2>
+        </div>
+        <div class="about-text">
+            <p>I’m a computer science student at the University of New haven, graduating Spring of 2027.As well a developer who enjoys building practical, well-designed software — from web apps and APIs to systems-level projects in Java and Python. I’m especially interested in backend development, software architecture, and understanding how things work under the hood. My main driver is my desire for growth and improvement as I believe we should improve ourselves on a daily basis.</p>
+            <p>I’m looking for opportunities where I can contribute to real-world projects, collaborate with experienced developers, and continue growing as a software engineer in a challenging and fast-paced environment.</p>
+        </div>
+    </div>
+    <div class="about-right">
+        <div class="section-num" style="margin-bottom:1rem; letter-spacing:0.15em; font-size:0.65rem; text-transform:uppercase; color:var(--muted)">Skills &amp; Tools</div>
+        <div class="skills-list">
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">React</span>
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">Figma</span>
+            <span class="skill-tag">API Development</span>
+            <span class="skill-tag">Gui Development (JavaFX)</span>
+            <span class="skill-tag">Password Encryption & Authentication (SHA-256)</span>
+            <span class="skill-tag">Data Processing</span>
+            <span class="skill-tag">Scalable Design</span>
+            <span class="skill-tag">Object-Oriented Programming</span>
+            <span class="skill-tag">Data Structures</span>
+            <span class="skill-tag">Basic Algorithims</span>
+            <span class="skill-tag">Debugging</span>
+            <span class="skill-tag">Responsive Web Design</span>
+            <span class="skill-tag">Clion</span>
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">Eclipse</span>
+            <span class="skill-tag">Redis</span>
+            <span class="skill-tag">Canva</span>
+            <span class="skill-tag">Mangerial Skills</span>
+            <span class="skill-tag">Conflict Resolution</span>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <div class="section-header">
+        <span class="section-num">02 /</span>
+        <h2 class="section-title">Projects</h2>
+    </div>
+
+    <div class="projects-grid">
+
+        <!-- PROJECT 1 — FEATURED -->
+        <div class="project-card featured">
+            <div class="project-num">01</div>
+            <div class="project-image">
+                <!-- Replace with: <img src="project1.jpg" alt="Project 1"> -->
+                <img src="Imgs/Api.jpg" alt="Battle Nations Wiki API"/>
+
+            </div>
+            <div class="project-title">Battle Nations Wiki API</div>
+            <p class="project-desc">Battle Nations Wiki API — A FastAPI-based REST API that scrapes and normalises game data from the Battle Nations wiki (Miraheze). It fetches raw wikitext via the MediaWiki API, parses unit stats (HP, Armor, Offense, Defense per rank) and building data (resource production, gold cost, XP) from infobox templates, and caches results in Redis to avoid redundant wiki requests. Designed as a clean data layer for tools, bots, or fan sites that need structured game data without scraping HTML.</p>
+            <div class="project-footer">
+                <div class="project-tags">
+                    <span class="project-tag">React</span>
+                    <span class="project-tag">API</span>
+                    <span class="project-tag">Tag</span>
+                </div>
+                <!-- Replace href="#" with your GitHub link -->
+                <a class="github-link" href="https://github.com/CLR-Carlos-Reyes/BN_Wiki_API" target="_blank" rel="noopener">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                    GitHub →
+                </a>
+            </div>
+        </div>
+
+        <!-- PROJECT 2 -->
+        <div class="project-card">
+            <div class="project-num">02</div>
+            <div class="project-image">
+                <Img src="Imgs/Image2.jpg" alt="Board Game">
+
+            </div>
+            <div class="project-title">Board Game Project</div>
+            <p class="project-desc">Designed and developed a digital board game application using object-oriented programming principles. Implemented game logic, player interactions, state management, and user interface components while applying problem-solving, debugging, and software development best practices.</p>
+            <div class="project-footer">
+                <div class="project-tags">
+                    <span class="project-tag">Node</span>
+                    <span class="project-tag">Tag</span>
+                </div>
+                <a class="github-link" href="https://github.com/CLR-Carlos-Reyes/Board_Game" target="_blank" rel="noopener">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                    GitHub →
+                </a>
+            </div>
+        </div>
+
+        <!-- PROJECT 3 -->
+        <div class="project-card">
+            <div class="project-num">03</div>
+            <div class="project-image">
+               <Img src="Imgs/WD-Image.jpg">
+            </div>
+            <div class="project-title">Web Development Project</div>
+            <p class="project-desc">Designed and developed a responsive website using HTML, CSS, and JavaScript. Implemented user-friendly navigation, interactive elements, and structured content organization while applying web design and front-end development best practices.</p>
+            <div class="project-footer">
+                <div class="project-tags">
+                    <span class="project-tag">Python</span>
+                    <span class="project-tag">Tag</span>
+                </div>
+                <a class="github-link" href="https://github.com/CLR-Carlos-Reyes/webdevproject-CR" target="_blank" rel="noopener">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                    GitHub →
+                </a>
+            </div>
+        </div>
+
+        <!-- PROJECT 4 -->
+        <div class="project-card">
+            <div class="project-num">04</div>
+            <div class="project-image">
+                <Img src="Imgs/Academic-Poster-Revised-Cr.png"></Img>
+            </div>
+            <div class="project-title">Academic Poster</div>
+            <p class="project-desc">Designed and presented an academic research poster while developing a companion website to display the poster and provide organized access to cited sources and supporting materials. Utilized web development technologies to create a clear, accessible, and user-friendly presentation of research content.</p>
+            <div class="project-footer">
+                <div class="project-tags">
+                    <span class="project-tag">SQL</span>
+                    <span class="project-tag">Tag</span>
+                </div>
+                <a class="github-link" href="https://github.com/CLR-Carlos-Reyes/Poster" target="_blank" rel="noopener">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                    GitHub →
+                </a>
+            </div>
+        </div>
+
+        <!-- PROJECT 5 -->
+        <div class="project-card">
+            <div class="project-num">05</div>
+            <div class="project-image">
+                <Img src="Imgs/java.png" alt="Java Payroll Application">
+            </div>
+            <div class="project-title">Payroll Systems Application</div>
+            <p class="project-desc">Developed a Java-based payroll management application using object-oriented programming principles. Implemented employee management, payroll calculations, secure SHA-256 password authentication, and a JavaFX graphical user interface while applying software design, debugging, and data management practices.</p>
+            <div class="project-footer">
+                <div class="project-tags">
+                    <span class="project-tag">TypeScript</span>
+                    <span class="project-tag">Tag</span>
+                </div>
+                <a class="github-link" href="https://github.com/CLR-Carlos-Reyes/Payroll-Systems-Application-JAVA--Coursework-2024" target="_blank" rel="noopener">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                    GitHub →
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <div class="section-header">
+        <span class="section-num">03 /</span>
+        <h2 class="section-title">Reach out to:</h2>
+    </div>
+    <a class="contact-email" href="mailto:creyesprof@email.com">creyesprof@email.com</a>
+    <div class="social-links">
+        <a class="social-link" href="https://github.com/CLR-Carlos-Reyes" target="_blank">GitHub</a>
+        <a class="social-link" href="www.linkedin.com/in/carlos-reyes-l" target="_blank">LinkedIn</a>
+        <!-- <a class="social-link" href="#" target="_blank">Twitter</a> -->
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <span>© 2026 Carlos Reyes</span>
+    <span>Built with HTML · CSS · ☕</span>
+</footer>
+
+</body>
+</html>
